@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<title>조건문-입력값 확인 후 조건문 수행</title>
+
+
+<script type="text/javascript">
+
+	var score = prompt('당신의 점수를 입력하세요?', '');
+	
+	var grade;
+		
+	if(score < 60){
+		grade = 'F';
+	}else if(score >= 60 && score < 70){
+		grade = 'D';
+	}else if(score >= 70 && score < 80){
+		grade = 'C';
+	}else if(score >= 80 && score < 90){
+		grade = 'B';
+	}else if(score >= 90 && score < 100){
+		grade = 'A';
+	}else{
+		grade ='Z';
+	}
+	
+	if( grade !='Z')
+		{
+			document.write('점수 : ' + score + '<br>');
+			document.write('등급 : ' + grade + '<br>');
+		}
+	else
+		{
+			document.write('정확한 점수를 입력하세요');
+		}
+	
+</script>
+</head>
+<body>
+
+</body>
+</html>

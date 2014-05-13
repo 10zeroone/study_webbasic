@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<title>HTML강좌</title>
+
+<!-- 기본타겟 지정하기 -->
+<base target="frameContent">
+</head>
+<body>
+	<a href="./HTML/ch01/01.html" >ch01/01.html - 글씨표기, 문단</a><br>
+	<a href="./HTML/ch01/02.html" >ch01/02.html - 문자 엔티티</a><br>
+	<a href="./HTML/ch01/03.html" >ch01/03.html - 배경색 지정</a><br>
+	<a href="/HTML/ch01/04.html" >ch01/04.html - 링크걸기</a><br>
+	<a href="/HTML/ch01/05.html" >ch01/05.html - 목록 만들기</a><br>
+	<a href="/HTML/ch02/01.html" >co02/01.html - 이미지 처리</a><br>
+	<a href="/HTML/ch02/02.html" target="_top">co02/02.html - 이미지 정렬 1</a><br>
+	<a href="/HTML/ch02/03.html" target="center">co02/03.html - 이미지 정렬 2</a><br>	
+	<a href="/HTML/ch03/01.html" target="center">co03/01.html - 링크 </a><br>
+	<a href="/HTML/ch04/01.html" target="center">co04/01.html - 테이블 </a><br>
+	<a href="/HTML/ch05/01.html" target="center">co05/01.html - HTML 폼(form) 태그</a><br>
+	<a href="/HTML/ch06/frameMain.html" target="center">co06/frameMain.html - HTML 폼(form) 태그</a><br>		
+</body>
+</html>

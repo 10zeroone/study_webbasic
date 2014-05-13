@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<title>테이블에 스타일 주기</title>
+
+<style type="text/css">
+	table{
+		border:1px solid orange;
+		
+		/* 테이블의 선을 한줄로 보여주고 싶을 때 collpase를 설정합니다. 
+		즉, 테이블과 셀 둘 모두에서 테두리가 만들어져 두줄로 표시가 되는 데 하나의 테두리로 만들어 줍니다.*/
+		border-collapse:collapse;
+		width:500px;
+		
+		/* 중앙정렬  효과: 테이블의 margin을 상하 0px로 주고 좌우를 auto로 설정합니다.
+		즉, 수평방향으로 남는 여백은 좌우에 동등하게 분배한다는 의미입니다.*/
+		margin:0 auto; 
+	}
+	th{
+		border:1px solid orange;
+		background-color:#ffcc66;
+		color:#ffffff;
+		padding:5px;
+		
+	}
+	td{
+		border:1px solid orange;
+		text-align:center;
+		height:100px;
+		vertical-align:middle;
+		
+	}
+	tr.bg td{
+		color:#cccccc;
+		background-color:#EAF205;
+	}
+	caption{
+		color:#ff6600;
+		font-size:11pt;
+		font-weight:bold;
+	}
+</style>
+</head>
+<body>
+
+<table>
+
+	<caption>테이블에 스타일 주기</caption>
+	<tr>
+		<th>1</th>
+		<th>2</th>
+		<th>3</th>
+		<th>4</th>
+		<th>5</th>
+		<th>6</th>
+		<th>7</th>		
+	</tr>
+	<tr class="bg">
+		<td>월요일</td>
+		<td>화요일</td>
+		<td>수요일</td>
+		<td>목요일</td>
+		<td>금요일</td>
+		<td>토요일</td>
+		<td>일요일</td>
+	</tr>
+	<tr>
+		<td>8시</td>
+		<td>9시</td>
+		<td>10시</td>
+		<td>11시</td>
+		<td>12시</td>
+		<td>1시</td>
+		<td>2시</td>
+	</tr>
+	<tr>
+		<td>사과</td>
+		<td>오렌지</td>
+		<td>망고</td>
+		<td>딸기</td>
+		<td>복숭아</td>
+		<td>파인애플</td>
+		<td>키위</td>
+	</tr>
+
+</table>
+
+</body>
+</html>

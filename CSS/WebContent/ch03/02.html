@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<title>박스모델</title>
+
+<style type="text/css">
+	ul{
+		background:green;
+		
+		   /* 위px 오른쪽px 아래쪽px 왼쪽px: 테두리 밖 여백 */
+		margin:10px 10px 10px 10px;
+		padding:10px; /* 테두리 안 여백 */
+	}
+	
+	li{
+		color:red;
+		background:yellow;
+		margin:10px;
+		padding:10px;
+		list-style:none;
+	}
+	
+	li.withborder{
+		border-style:dashed; /* 점심 */
+		border-width:medium; /* 테두리 크기를 중간으로 설정  */
+		border-color:black; /* 테두리 색깔 */
+	}
+</style>
+
+</head>
+<body>
+	<ul>
+		<li>테두리가 없는 곳</li>
+		<li>테두리가 없는 곳</li>
+		<li class="withborder">테두리가 있는 곳</li>
+		<li class="withborder">테두리가 있는 곳</li>
+	</ul>	
+
+	1) ul태그 적용 background:green;<br>
+	2) margin:10px 10px 10px 10px;<br>
+	3) padding:10px; <br>
+	4) li 태그 적용<br>
+	<br>
+	<br>
+
+</body>
+</html>

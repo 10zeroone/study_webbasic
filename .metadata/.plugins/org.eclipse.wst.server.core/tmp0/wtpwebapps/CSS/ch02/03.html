@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<title>태그선택자와 클래스 선택자 연계</title>
+
+<style type="text/css">
+	.item1{
+		color:orange;
+		}
+	.item2{
+		color:pink;
+		}
+	h1.item1{
+		color:blue;
+		background-color:gray;
+	}
+
+</style>
+</head>
+
+<body>
+
+<h1 class="item1">h1 태그1 / item1스타일</h1>
+<h1 class="item2">h1 태그2 / item2스타일</h1>
+<h1 class="item1">h1 태그3 / item1스타일</h1>
+<h1 >h1 태그4</h1>
+<h2 class="item1">h1 태그3 / item1스타일</h2>
+<span>span 태그</span>
+
+<!-- 태그하고 가까이 있는게 가장 강하다 그래서 인라인스타일이 가장 먼저 적용합니다.
+스타일 충돌시 인라인스타일 사용합니다. -->
+
+</body>
+</html>

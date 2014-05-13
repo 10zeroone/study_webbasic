@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<title>변수 선언</title>
+
+	<script type="text/javascript">
+	
+		/* 변수 정의 원칙:
+		1) 키워드(예약어)를 사용하지 말것.
+		2) 숫자로 시작하지 말것.
+		3) 특수문자는 _와 $ 만 허용함.
+		4) 공백문자를 포함할 수 없음. */
+		
+		/* 실별자를 잘못 지정한 예
+		break: 키워드 사용
+		10alpha: 슷자로 시작
+		#num: 특수문자 위반
+		has number: 공백 사용 */
+		
+		//변수선언
+		var num1;
+		//변수에 값을 할당(초기화)
+		num1 = 1234;
+		
+		document.write(num1);
+		document.write('<br>');document.write('<br>');
+		document.write('num1 = ' +num1);
+			
+		document.write('<br>');
+		document.write('<br>');
+	
+		//변수 선언과 초기화
+		var num2 = 123456;
+		document.write('num2 = ' +num2);
+		
+		document.write('<br>');
+			
+		//변수를 선언하지 않고 출력
+		/* alert(num3); */
+		
+		document.write('<br>');
+			
+		//변수 선언 후 값을 할당하지 않고 출력
+		var num4;
+		document.write('num4 =' +num4);
+		
+		document.write('<br>');
+		document.write('<br>');
+		//두 개 이상의 변수를 한 번에 선언
+		var a, b;
+		a = 10;
+		b = 20;	
+		
+		document.write('a+b = ' + a+b);
+		
+		document.write('<br>');
+		document.write('<br>');
+		document.write('a+b = ' + (a+b));
+		
+		document.write('<br>');
+		document.write('<br>');
+		var c;
+		c = a + b;
+		document.write('a+b = ' + c);
+		
+		document.write('<br>');
+		document.write('<br>');
+		//변수명 한글 사용하여 선언
+		var 학년 = 3;
+		document.write('학년 = ' + 학년+'<br>');
+		
+	</script>
+</head>
+<body>
+
+</body>
+</html>

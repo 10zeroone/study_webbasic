@@ -1,0 +1,282 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<title>Insert title here</title>
+</head>
+<body >
+
+<h1 align="center">이 력 서</h1>
+<hr >
+
+<b>1. 기초자료</b><br>
+<table border="1" width="800">
+	<tr>
+		<td rowspan="4" width="100" align="center"><img src="image.png" width="80%" height="80%:"></td>
+		<th rowspan="2" width="100">성명</th>
+		<th width="100">한글</th>
+		<td width="200">
+			<input type="text" name="name" value="홍길동" readonly>
+		
+		</td>
+		<th width="100">성별</th>
+		<td width="200">
+			<input type="radio" name="sex" value="boy" checked>남자
+			<input type="radio" name="sex" value="girl">여자</td>
+	</tr>
+	<tr>		
+		<th>한자</th>
+		<td>漢子</td>
+		<th>연령</th>
+		<td>
+			<select name="age">
+				<option value="10대">10</option>				
+				<option value="20대" selected>20</option>
+				<option value="30대">30</option>
+				<option value="40대">40</option>
+				<option value="50대">50</option>
+				<option value="60대">60</option>
+				<option value="70대">70</option>
+			</select>대
+		</td>
+	</tr>
+		<tr>
+		
+		<th>주민등록번호</th>
+		<td colspan="5">
+			<input type="text" name="socialnumber" size="20" maxlength="1" value="20140226">-
+			<input type="text" name="socialnumber" size="20" maxlength="7" value="1234567">		
+		</td>
+		
+	</tr>
+	<tr>		
+		<th>생년월일</th>
+		<td colspan="5">
+			<select name="date_year">
+				<option value="year">2014</option>
+				<option value="year">2013</option>
+				<option value="year">2012</option>
+				<option value="year">2011</option>
+				<option value="year">2010</option>
+				<option value="year">2009</option>
+				<option value="year">2008</option>
+			</select>년
+			&nbsp;
+			<select name="date_month">
+				<option value="month">1</option>
+				<option value="month">2</option>
+				<option value="month">3</option>
+				<option value="month">4</option>
+				<option value="month">5</option>
+				<option value="month">6</option>
+				<option value="month">7</option>
+				<option value="month">8</option>
+				<option value="month">9</option>
+				<option value="month">10</option>
+				<option value="month">11</option>
+				<option value="month">12</option>
+			</select>월
+			&nbsp;
+			<select name="date_day">
+				<option value="day">1</option>
+				<option value="day">2</option>
+				<option value="day">3</option>
+				<option value="day">4</option>
+				<option value="day">5</option>
+				<option value="day">6</option>
+				<option value="day">7</option>
+				<option value="day">8</option>
+				<option value="day">9</option>
+				<option value="day">10</option>
+				<option value="day">11</option>
+				<option value="day">12</option>
+				<option value="day">13</option>
+				<option value="day">14</option>
+				<option value="day">15</option>
+				<option value="day">16</option>
+				<option value="day">17</option>
+				<option value="day">18</option>
+				<option value="day">19</option>
+				<option value="day">20</option>
+			</select>일
+		</td>
+		
+	</tr>
+	<tr>
+		<th>현주소</th>
+		<td colspan="5">
+			<select name="address_main">
+				<option value="서울특별시">서울특별시</option>
+				<option value="경기도">경기도</option>
+			</select>		
+			<select name="address">
+				<optgroup label="서울특별시">
+					<option value="종로구">종로구</option>
+					<option value="마포구">마포구</option>
+					<option value="용산구">용산구</option>
+					<option value="강남구">강남구</option>
+				</optgroup>				
+				<optgroup label="경기도">
+					<option value="수원시">수원시</option>
+					<option value="화성시">화성시</option>
+					<option value="과천시">과천시</option>
+					<option value="광주시">광주시</option>
+				</optgroup>				
+			</select>
+			<input type="text" name="address_detail" size="50" maxlength="30" value="상세주소 입력하세요">
+		
+		
+		</td>
+	</tr>
+	<tr>
+		<th>연락처</th>
+		<th>휴대폰</th>
+		<td colspan="2">010-5678-1234</td>
+		<th>e-mail</th>
+		<td><a href="mailto:gandaemail@mail.com">gandaemail@mail.com</a></td>
+	</tr>
+	<tr>
+		<th>FaceBook</th>
+		<td colspan="5"><a href="http://www.facebook.com/nuguji" title="저의 소셜프로필입니다. 클릭해 주세요" target="_blank">http://www.facebook.com/nuguji</a></td>
+	</tr>
+	
+</table>
+
+
+<br>
+<strong>2. 신상자료</strong><br>
+<table border="1"  width="800">
+	<tr>
+		<th>신체사항</th>
+		<th>신장</th>
+		<td width="70">신장건강함</td>
+		<th>체중</th>
+		<td width="70">표준</td>
+		<th>시력</th>
+		<td width="70">잘보임</td>
+		<th>혈액형</th>
+		<td width="70">미남형</td>
+		<th>결혼</th>
+		<td width="70">할까말까</td>
+	</tr>
+	<tr>
+		<th>가족관계</th>
+		<td colspan="4">
+			<input type="checkbox" name="famlily_relation" value="양친">양친
+			<input type="checkbox" name="famlily_relation" value="여동생">여동생
+			<input type="checkbox" name="famlily_relation" value="남동생">남동생
+			<input type="checkbox" name="famlily_relation" value="형">형
+			<input type="checkbox" name="famlily_relation" value="누나">누나
+		</td>
+		<th colspan="2">주거형태</th>
+		<td colspan="4">집</td>
+	</tr>
+	<tr>
+		<th>병역구분</th>
+		<td colspan="4">현역</td>
+		<th colspan="2">면제사유</th>
+		<td colspan="4">son of god</td>
+	</tr>
+	<tr>
+		<th>군필</th>
+		<td colspan="4">특수병</td>
+		<th colspan="2">계급</th>
+		<td>스타</td>
+		<th colspan="2">복무기간</th>
+		<td>말뚝</td>
+	</tr>
+</table>
+
+
+<br>
+<h4>3. 가족 사항</h4>
+<table border="1" width="800" cellpadding="10" cellspacing="10">
+	<tr height="30" >
+		<th>관계</th>
+		<th>성명</th>
+		<th>연령</th>
+		<th width="100">최종학력</th>
+		<th width="100">근무처</th>
+		<th>직위</th>
+		<th>동거여부</th>
+	</tr>
+	<tr height="30">
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		
+	</tr>
+	<tr height="30">
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr height="30">
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+</table>
+
+<br>
+4. 학력사항과 자격증<br>
+<table border="1"  width="800" >
+	<tr>
+		<th bgcolor="#cccccc">기간</th>
+		<th bgcolor="#cccccc">관련내용</th>
+		<th bgcolor="#cccccc">비고</th>
+	</tr>
+	<tr height="30">
+		<td>201402 ~ 201405</td>
+		<td>hybrid wep/app dev</td>
+		<td>열공하삼</td>
+	</tr>
+	<tr height="30">
+		<td><input type="text" size="35"></td>
+		<td><input type="text" size="35"></td>
+		<td><input type="text" size="35"></td>
+	</tr>
+	<tr height="30">
+		<td><input type="text" size="35"></td>
+		<td><input type="text" size="35"></td>
+		<td><input type="text" size="35"></td>
+	</tr>
+	<tr height="30">
+		<td><input type="text" size="35"></td>
+		<td><input type="text" size="35"></td>
+		<td><input type="text" size="35"></td>
+	</tr>
+	<tr height="30">
+		<td><input type="text" size="35"></td>
+		<td><input type="text" size="35"></td>
+		<td><input type="text" size="35"></td>
+	</tr>
+</table>
+
+<br>
+4. 자기 소개:<br>
+	<textarea rows="10" cols="116" name="introduce">자기 소개 입력하세요</textarea>
+<br>
+<h5 align="center">위의 사실이 틀림없음을 확인합니다.<br>
+<br>
+작성일 : 2014년 02월 25일<br>
+작성자 : 홍 길 동 (인)</h5> 
+<hr>
+<font color="red"><b>모든 입력항목이 <u>정확</u>한지 확인한 후 전송 버튼을 눌러주세요. </b></font>
+<br>
+<input type="submit" value="전송">
+<input type="reset" value="초기화">
+</body>
+</html>

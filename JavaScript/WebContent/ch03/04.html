@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<title>조건문 - switch문 1</title>
+
+<script type="text/javascript">
+	var type = prompt('당신의 혈액형을 입력하세요!', '');
+	
+	document.write('당신의 혈액형은 ');
+	switch(type){
+	case ('A' || 'a'):
+		document.write('A형 입니다. ');
+		break;
+	case 'B':
+		document.write('B형 입니다. ');
+		break;
+		
+	case 'O':
+		document.write('O형 입니다. ');
+		break;
+		
+	case 'AB':
+		document.write('AB형 입니다. ');
+		break;
+	default:
+		document.write('새로운 혈액형 입니다.' + '<br>' + '어느 별에서 오셨습니까?');	
+		 
+	}
+
+
+</script>
+</head>
+<body>
+
+</body>
+</html>
